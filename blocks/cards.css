@@ -5,13 +5,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-    justify-items: center;
+    align-items: center;
 }
 
 .card__items{
     margin: 0;
-    width: 413px;
-    height: 413px;
+    max-width: 413px;
+    max-height: 413px;
     padding: 0 0 72px 0;
 }
 
@@ -43,4 +43,20 @@
 .card__like-icon:hover{
     opacity: 100%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1320px) and (min-width: 880px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 16px 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 880px) and (min-width: 320px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 16px 0;
+        justify-content: center;
+    }
 }
