@@ -99,11 +99,30 @@ padding-right: 8px;
 @media screen and (max-width: 1320px) and (min-width: 880px) {
     .header {
         margin: 20px 16px 0;
+        justify-items: center;
+    }
+        .header__button_large{
+        justify-items: center;
     }
 }
 
 @media screen and (max-width: 880px) and (min-width: 320px) {
     .header {
         margin: 20px 16px 0;
+        flex-direction: column;
+    }
+
+    .header__name-description{
+        text-align: center;
+    }
+
+    .header__avatar-section{
+        flex-direction: column;
+    }
+
+    .header__avatar{
+     width: 90px;
+     height: 90px;
+     margin: 0 auto;
     }
 }
