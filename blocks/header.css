@@ -49,27 +49,6 @@
   font-weight: 500;
 }
 
-.header__button-secondary {
-  margin-top: auto;
-  opacity: 70%;
-  transition: ease-in 0.2s all;
-}
-
-.header__button-secondary:hover {
-  color: black;
-  opacity: 100%;
-}
-
-.header__button-secondary_link {
-  display: flex;
-  gap: 8px;
-  color: black;
-  font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 16px;
-  text-decoration: none;
-}
-
 .header__button_large {
   background-color: #212121;
   color: white;

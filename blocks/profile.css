@@ -1,0 +1,20 @@
+.profile {
+  margin-top: auto;
+  opacity: 70%;
+  transition: ease-in 0.2s all;
+}
+
+.profile:hover {
+  color: black;
+  opacity: 100%;
+}
+
+.profile__button {
+  display: flex;
+  gap: 8px;
+  color: black;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+}
