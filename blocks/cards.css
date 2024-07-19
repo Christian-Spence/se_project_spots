@@ -32,6 +32,14 @@
   margin-top: 12px;
   line-height: 24px;
   padding-bottom: 36px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cards__like-button {
+  background-color: transparent;
+  border: none;
 }
 
 .cards__like-icon {
@@ -57,7 +65,7 @@
 @media screen and (max-width: 880px) {
   .cards__item {
     width: 288px;
-    height: 288px;
+    height: 288px;    
   }
 
   .cards {
