@@ -127,6 +127,7 @@
 
   .profile__avatar-section {
     flex-direction: column;
+    gap: 12px;
   }
 
   .profile__avatar {
