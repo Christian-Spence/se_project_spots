@@ -1,7 +1,7 @@
 .profile {
   max-width: 1280px;
   margin: 34px auto 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 40%);
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +46,8 @@
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 16px;
-  color: rgba(0, 0, 0, 70%);
+  color: #212121;
+  opacity: 70%;
   font-weight: 500;
 }
 
@@ -117,11 +118,11 @@
     align-items: center;
   }
 
-  .profile__description{
+  .profile__description {
     padding-top: 6px;
   }
 
-  .profile__name{
+  .profile__name {
     font-size: 20px;
     line-height: 20px;
   }
@@ -137,7 +138,7 @@
     margin: 0 auto;
   }
 
-  .profile__edit{
+  .profile__edit {
     margin-top: 32px;
   }
 

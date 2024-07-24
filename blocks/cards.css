@@ -1,6 +1,6 @@
 .cards {
   max-width: 1280px;
-  border-bottom: 1px solid rgb(0, 0, 0, 40%);
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   margin: 20px auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -30,13 +30,10 @@
   margin-top: 12px;
 }
 
-.cards__text{
+.cards__text {
   margin: 0;
-  font-family: "Poppins", Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 500;
   line-height: 24px;
-  color: #212121;
 }
 
 .cards__like-button {
@@ -72,12 +69,12 @@
     padding: 0;
   }
 
-  .cards__description{
+  .cards__description {
     font-size: 16px;
     line-height: 16px;
   }
 
-  .cards__text{
+  .cards__text {
     margin: 0;
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 16px;
