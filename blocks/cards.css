@@ -93,5 +93,6 @@
   .cards {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
+    padding-bottom: 20px;
   }
 }
