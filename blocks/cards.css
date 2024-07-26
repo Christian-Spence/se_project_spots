@@ -31,8 +31,11 @@
 }
 
 .cards__text {
+  margin: 0;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 500;
+  color: #212121;
 }
 
 .cards__like-button {
@@ -74,12 +77,8 @@
   }
 
   .cards__text {
-    margin: 0;
-    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 500;
     line-height: 16px;
-    color: #212121;
   }
 
   .cards__photo {
