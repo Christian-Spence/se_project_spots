@@ -39,62 +39,17 @@
         </section>
         <section>
           <ul class="cards">
-            <li class="cards__item">
-              <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Val Thorens" class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">Val Thorens</h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
-                </button>
-              </div>
-            </li>
-            <li class="cards__item">
-              <img src="./images/2-photo-by-ceiline-from-pexels.jpg" alt="Restaurant terrace" class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">Restaurant terrace</h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
-                </button>
-              </div>
-            </li>
-            <li class="cards__item">
-              <img src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg" alt="An outdoor cafe" class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">An outdoor cafe</h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
-                </button>
-              </div>
-            </li>
-            <li class="cards__item">
-              <img src="./images/4-photo-by-maurice-laschet-from-pexels.jpg" alt="A very long bridge, over the forest..." class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">
-                  A very long bridge, over the forest...
-                </h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button" >
-                </button>
-              </div>
-            </li>
-            <li class="cards__item">
-              <img src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg" alt="Tunnel with morning light" class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">Tunnel with morning light</h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
-                </button>
-              </div>
-            </li>
-            <li class="cards__item">
-              <img src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg" alt="Mountain house" class="cards__photo">
-              <div class="cards__description">
-                <h2 class="cards__text">Mountain house</h2>
-                <button type="button" class="cards__like-button">
-                  <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
-                </button>
-              </div>
-            </li>
+            <template id="card-template">
+              <li class="cards__item">
+                <img src="" alt="" class="cards__photo">
+                <div class="cards__description">
+                  <h2 class="cards__text"></h2>
+                  <button type="button" class="cards__like-button">
+                    <img src="images/Like-Icon.svg" class="cards__like-icon" alt="Like Button">
+                  </button>
+                </div>
+              </li>
+            </template>
           </ul>
         </section>
       </main>
@@ -108,11 +63,11 @@
           <form name="edit-profile"  class="modal__form">
             <label for="name" class="modal__label">
               Name
-              <input id="name" type="text" class="modal__input" placeholder="Type your name">
+              <input id="profile-name" type="text" class="modal__input" placeholder="Type your name">
             </label>
             <label for="name" class="modal__label">
               Description
-              <input id="description" type="text" class="modal__input" placeholder="Describe yourself">
+              <input id="profile-description" type="text" class="modal__input" placeholder="Describe yourself">
             </label>
             <button type="submit"  class="modal__submit-btn">Save</button>
           </form>
