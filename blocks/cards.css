@@ -36,6 +36,9 @@
   line-height: 24px;
   font-weight: 500;
   color: #212121;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .cards__like-button {
