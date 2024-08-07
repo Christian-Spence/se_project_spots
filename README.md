@@ -18,6 +18,7 @@ https://christian-spence.github.io/se_project_spots/
 **Technologies Used**
 * HTML
 * CSS
+* Javascript
 
 **Images** 
 * Desktop View
