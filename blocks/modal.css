@@ -79,11 +79,11 @@
     line-height: 20px;
 }
 
-#name:hover{
+#profile-name:hover{
     border: 1px solid #212121;
 }
 
-#description:hover{
+#profile-description:hover{
     border: 1px solid #212121;
 }
 
