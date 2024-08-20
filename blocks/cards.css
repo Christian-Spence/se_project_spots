@@ -46,18 +46,39 @@
   background-color: transparent;
   border: none;
   padding: 0;
-}
-
-.cards__like-icon {
-  width: 23px;
-  height: 20px;
+  background-repeat: no-repeat;
   opacity: 40%;
   transition: ease-in 0.2s all;
+  background-image: url(../images/Like-Icon.svg);
+  width: 23px;
+  height: 20px;
 }
 
-.cards__like-icon:hover {
-  opacity: 100%;
+.cards__delete-icon {
+  background-image: url(../images/Delete-Icon.svg);
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 10;
+  left: 371;
+  border: none;
+  padding: 0;
+}
+
+.cards__like-button:hover{
+  opacity: 1;
   cursor: pointer;
+}
+
+.cards__like-button_liked {
+  background-image: url(../images/Like-Button.svg);
+  opacity: 1;
+  z-index: 1000;
+  background-repeat: no-repeat;
+}
+
+.cards__like-button_liked:hover{
+  background-image: url(../images/Like-Button-Hover.svg);
 }
 
 @media screen and (max-width: 1320px) {
