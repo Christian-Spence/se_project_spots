@@ -13,6 +13,7 @@
 .cards__item {
   margin: 0;
   list-style: none;
+  position: relative;
 }
 
 .cards__photo {
@@ -59,10 +60,16 @@
   position: absolute;
   width: 32px;
   height: 32px;
-  top: 10;
-  left: 371;
+  top: 10px;
+  left: 371px;
   border: none;
   padding: 0;
+  transition: ease 0.2s all;
+}
+
+.cards__delete-icon:hover {
+  background-image: url(../images/Delete-Icon-Hover.svg);
+  cursor: pointer;
 }
 
 .cards__like-button:hover{

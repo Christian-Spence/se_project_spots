@@ -73,6 +73,7 @@ function getCardElement(data){
     const cardNameEl = cardElement.querySelector(".cards__text");
     const cardImageEl = cardElement.querySelector(".cards__photo");
     const cardLikeBtn = cardElement.querySelector(".cards__like-button");
+    const cardDeleteBtn = cardElement.querySelector("cards__delete-icon");
     cardNameEl.textContent = data.name;
     cardImageEl.src = data.link;
     cardImageEl.alt = data.name;
