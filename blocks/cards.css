@@ -14,6 +14,7 @@
   margin: 0;
   list-style: none;
   position: relative;
+  cursor: pointer;
 }
 
 .cards__photo {
@@ -55,8 +56,13 @@
   height: 20px;
 }
 
+.cards__like-button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
 .cards__delete-icon {
-  background-image: url(../images/Delete-Icon.svg);
+  background: url(../images/Delete-Icon.svg);
   position: absolute;
   width: 32px;
   height: 32px;
@@ -72,15 +78,9 @@
   cursor: pointer;
 }
 
-.cards__like-button:hover{
-  opacity: 1;
-  cursor: pointer;
-}
-
 .cards__like-button_liked {
   background-image: url(../images/Like-Button.svg);
   opacity: 1;
-  z-index: 1000;
   background-repeat: no-repeat;
 }
 

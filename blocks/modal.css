@@ -53,6 +53,7 @@
     background-image: url(../images/Image-Close-Icon.svg);
     top: 0;
     right: -52.5px;
+    cursor: pointer;
 }
 
 .modal__close-image {
