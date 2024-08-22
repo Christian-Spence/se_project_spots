@@ -11,10 +11,13 @@
     justify-content: center;
     visibility: hidden;
     padding: 0 16px;
+    transition: linear all 0.2s;
+    opacity: 0;
 }
 
 .modal_opened{
     visibility: visible;
+    opacity: 1;
 }
 
 .modal__container{
@@ -34,7 +37,7 @@
 
 .modal__image{
     max-width: 80vw;
-    height: 80vh;
+    max-height: 80vh;
     object-fit: contain;
     width: 100%;
     border-radius: 8px;
