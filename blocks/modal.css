@@ -21,20 +21,24 @@
     background: #fff;
     max-width: 730px;
     padding: 32px 50px;
-    position: relative;
     width: 100%;
+    position: relative;
     box-sizing: border-box;
     border-radius: 8px;
 }
 
 .modal__container_type_preview{
     padding: 0;
+    width: auto;
 }
 
 .modal__image{
     max-width: 80vw;
     height: 80vh;
-    object-fit: cover;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
 }
 
 .modal__close-btn{
@@ -114,6 +118,18 @@
     cursor: pointer;
 }
 
+.modal__caption {
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    background-color: #212121;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 @media screen and (max-width: 880px){
     .modal {
         padding: 0 10px;
@@ -140,5 +156,16 @@
     .modal__submit-btn {
         width: 100%;
     }
-}
+    
+    .modal__container_type_preview{
+        padding: 0;
+        width: auto;
+    }
 
+    .modal__image{
+        display: block;
+        height: 100%;
+        max-height: 80vh;
+    }
+
+}
