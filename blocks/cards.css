@@ -56,7 +56,7 @@
   height: 20px;
 }
 
-.cards__like-button:hover{
+.cards__like-button:hover {
   opacity: 1;
   cursor: pointer;
 }
@@ -84,7 +84,7 @@
   background-repeat: no-repeat;
 }
 
-.cards__like-button_liked:hover{
+.cards__like-button_liked:hover {
   background-image: url(../images/Like-Button-Hover.svg);
 }
 
@@ -123,7 +123,7 @@
     row-gap: 20px;
     padding-bottom: 20px;
   }
-  
+
   .cards__delete-icon {
     top: 10px;
     left: 246px;
