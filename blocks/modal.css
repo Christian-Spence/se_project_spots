@@ -103,6 +103,23 @@
   line-height: 20px;
 }
 
+.modal__error{
+  display: block;
+  color: #ff0000;
+  opacity: 70%;
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 500;
+}
+
+.modal__input_type-error{
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__input_type-disabled {
+  opacity: 50%;
+}
+
 #profile-name:hover {
   border: 1px solid #212121;
 }
