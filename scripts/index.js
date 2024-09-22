@@ -51,14 +51,6 @@ const previewModalCloseBtn = previewModal.querySelector(
   ".modal__close-btn_type_preview"
 );
 
-function openModal(modal) {
-  modal.classList.add("modal_opened");
-}
-
-function closeModal(modal) {
-  modal.classList.remove("modal_opened");
-}
-
 function handleProfileFormSubmit(evt) {
   evt.preventDefault();
   profileName.textContent = editModalNameInput.value;
@@ -113,12 +105,11 @@ function handleModalOverlay(evt) {
 function openModal(modal){
   modal.classList.add("modal_opened");
   modal.addEventListener("mousedown", handleModalOverlay);
-  document.addEventListener("keydown", handleEscKeyPress);  // Add to document
+  document.addEventListener("keydown", handleEscKeyPress); 
 }
 
 function closeModal (modal) {
   modal.classList.remove("modal_opened");
-  modal.removeEventListener("mousedown", handleModalOverlay);  // Remove from document
 }
 
 function handleEscKeyPress(evt) {
