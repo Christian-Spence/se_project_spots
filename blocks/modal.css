@@ -165,8 +165,10 @@
   }
 
   .modal__close-btn {
-    top: 12px;
-    right: 12px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    padding-bottom: 8px;
   }
 
   .modal__label {
