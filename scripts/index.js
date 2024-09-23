@@ -65,7 +65,7 @@ function handleAddCardSubmit(evt) {
   cardsList.prepend(cardElement);
   cardNameInput.value = "";
   cardLinkInput.value = "";
-  disableButton(cardSubmitBtn);
+  disableButton(cardSubmitBtn, settings);
   closeModal(cardModal);
 }
 
@@ -124,7 +124,7 @@ function handleEscKeyPress(evt) {
 editProfileButton.addEventListener("click", () => {
   editModalNameInput.value = profileName.textContent;
   editModalDescriptionInput.value = profileDescription.textContent;
-  resetValidation(editFormElement, [editModalNameInput, editModalDescriptionInput]);
+  resetValidation(editFormElement, [editModalNameInput, editModalDescriptionInput], settings);
   openModal(editModal);
 });
 

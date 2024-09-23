@@ -61,7 +61,8 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
             <img src="./images/Close-Icon.svg" 
-            class="modal__close-image">
+            class="modal__close-image"
+            alt ="close icon">
           </button>
           <h2 class="modal__title">Edit Profile</h2>
           <form name="edit-profile" class="modal__form">
@@ -73,8 +74,7 @@
               class="modal__input" 
               placeholder="Type your name"
               required>
-              <span id="profile-name-error" class="modal__error">
-                Please fill out this field.</span>
+              <span id="profile-name-error" class="modal__error"></span>
             </label>
             <label for="profile-description" class="modal__label">
               Description
@@ -84,8 +84,7 @@
               class="modal__input" 
               placeholder="Describe yourself"
               required>
-              <span id="profile-description-error" class="modal__error">Please lengthen this text to 2 characters or more 
-                (you are currently using 1 character).</span>
+              <span id="profile-description-error" class="modal__error"></span>
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
@@ -95,7 +94,8 @@
         <div class="modal__container">
           <button type="submit" class="modal__close-btn">
             <img src="./images/Close-Icon.svg" 
-            class="modal__close-image"></button>
+            class="modal__close-image"
+            alt="close icon"></button>
           <h2 class="modal__title">New Post</h2>
           <form name="edit-profile" class="modal__form">
             <label for="add-card-link" class="modal__label">
@@ -106,7 +106,7 @@
               name="link"
               placeholder="Paste a link to the picture"
               required>
-              <span id="add-card-link-error" class="modal__error">Please enter a URL.</span>
+              <span id="add-card-link-error" class="modal__error"></span>
             </label>
             <label for="add-card-name" class="modal__label">
               Caption
@@ -118,7 +118,7 @@
               name="name" 
               placeholder="Type your caption"
               required>
-              <span id="add-card-name-error" class="modal__error">Please fill out this field.</span>
+              <span id="add-card-name-error" class="modal__error"></span>
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
